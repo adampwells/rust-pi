@@ -21,4 +21,4 @@ cargo build --release --target $TARGET
 Now `scp` the binary to the Pi and run it!
 
 ## Github Actions Build
-See the `.github/workflows/cross-compile.yml` file for the build steps. The build is triggered on every push to the `main` branch.
+See the `.github/workflows/cross-compile.yml` file for the build steps. The build is triggered on every tag starting with "v".
